@@ -16,6 +16,14 @@ export const Logo = () => {
                 height="80"
                 width="80"
                 alt="Logo"
+                className="dark:hidden"
+            />
+            <Image 
+                src="/logo-dark.png"
+                height="80"
+                width="80"
+                alt="Logo"
+                className="hidden dark:block"
             />
             <p className={(cn("font-semibold", font.className))}>
                 Scribblix

@@ -1,4 +1,5 @@
 node_modules
 .trunk
-.next
+./next/
 .env.local
+.env

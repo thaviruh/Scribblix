@@ -27,7 +27,7 @@ export const Heading = () => {
         </div>
       )}
 
-      {isAuthenticated && !isLoading && (
+      {!isAuthenticated && !isLoading && (
         <Button asChild>
           <Link href="/documents">
             Enter Scribblix

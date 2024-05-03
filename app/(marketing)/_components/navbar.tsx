@@ -14,7 +14,6 @@ import { Logo } from "./logo";
 
 export const Navbar = () => {
   const { isAuthenticated, isLoading } = useConvexAuth();
-  console.log(isAuthenticated);
   const scrolled = useScrollTop();
 
   return (

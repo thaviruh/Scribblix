@@ -10,7 +10,6 @@ import { SignInButton } from "@clerk/clerk-react";
 
 export const Heading = () => {
   const { isAuthenticated, isLoading } = useConvexAuth();
-  console.log(isAuthenticated);
 
   return (
     <div className="max-w-3xl space-y-4">

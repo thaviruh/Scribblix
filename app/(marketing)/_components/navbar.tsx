@@ -37,7 +37,7 @@ export const Navbar = () => {
                     </Button>
                 </SignInButton>
                 <SignInButton mode="modal">
-                    <Button size="sm">
+                    <Button size="sm" className="mr-2">
                         Get Scribblix free
                     </Button>
                 </SignInButton>

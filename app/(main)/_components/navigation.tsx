@@ -143,7 +143,7 @@ const handleCreate = () => {
             icon={PlusCircle}/>
         </div>
         <div className="mt-4">
-          {documents?.map((document) => (
+          {documents?.map((document:any) => (
             <p key={document._id}>
               {document.title}
             </p>
